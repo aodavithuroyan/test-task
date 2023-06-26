@@ -7,9 +7,10 @@ function linearSearch(array, item) {
             return i;
         }
     }
-    console.log('count = ', count)
+   
+    console.log(linearSearch(array, 23))
     return null
 }
 
-console.log(linearSearch(array, 8080))
+console.log(linearSearch(array, 50))
 console.log('count = ', count)
