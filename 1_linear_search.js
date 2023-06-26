@@ -7,7 +7,7 @@ function linearSearch(array, item) {
             return i;
         }
     }
-    
+   
     console.log(linearSearch(array, 23))
     return null
 }
